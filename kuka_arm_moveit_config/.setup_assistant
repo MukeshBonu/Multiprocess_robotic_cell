@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kuka_kr10_support
+    relative_path: urdf/kr10r1100sixx.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/kuka_kr10r1100sixx.srdf
+  CONFIG:
+    author_name: Mukesh Bonu
+    author_email: mukeshbonu021999@gmail.com
+    generated_timestamp: 1603310860
